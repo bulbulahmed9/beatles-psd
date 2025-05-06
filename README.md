@@ -25,5 +25,5 @@ git clone https://github.com/bulbulahmed9/beatles-psd.git
 ```
 
 ## Notes
-- This project was built purely with **HTML** and **CSS** **JS**.
+- This project was built purely with **HTML**, **CSS** and **JS**.
 - Intended for practice and educational purposes.
