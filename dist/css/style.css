@@ -1,136 +1,143 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500,700');
-body{
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500,700");
+
+
+/*COMMON CSS STARTED*/
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Open Sans", sans-serif;
   user-select: none;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
-*{
+* {
   margin: 0px;
   padding: 0px;
   outline: 0px;
 }
-h1,h2,h3,h4,h5,h6,ul,li,ol,p,span{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+p,
+span {
   margin: 0px;
   padding: 0px;
 }
-a,a:hover{
+a,
+a:hover {
   text-decoration: none;
 }
-img{
+img {
   outline: 0;
 }
 
-        /*COMMON CSS ENDED*/
+/*COMMON CSS ENDED*/
 
-
-        /*HEADER NAV-TOP STARTED*/
-.nav-top{
+/*HEADER NAV-TOP STARTED*/
+.nav-top {
   background: #0872b9;
 }
-.nav-top .row{
+.nav-top .row {
   padding: 0px 40px;
   margin: 0px;
 }
-.nav-top .row .col-md-3 h6{
+.nav-top .row .col-md-3 h6 {
   padding-top: 12px;
   padding-bottom: 10px;
   font-size: 14px;
   color: #e7e7e7;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-.nav-top .row .col-md-9{
+.nav-top .row .col-md-9 {
   text-align: right;
 }
-.nav-top .row .col-md-9 a{
+.nav-top .row .col-md-9 a {
   text-decoration: none;
 }
-.nav-top .row .col-md-9 i{
+.nav-top .row .col-md-9 i {
   padding-top: 12px;
   padding-bottom: 10px;
   color: #fff;
   padding-left: 25px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.nav-top .row .col-md-9 i:hover{
+.nav-top .row .col-md-9 i:hover {
   padding-top: 12px;
   padding-bottom: 10px;
   color: #000;
 }
 
+/*HEADER NAV STARTED*/
 
-
-
-        /*HEADER NAV STARTED*/
-
-
-.navbar{
+.navbar {
   padding: 20px 40px;
 }
-.navbar .navbar-nav .nav-item .nav-link{
+.navbar .navbar-nav .nav-item .nav-link {
   color: #353535;
   padding-left: 15px;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
-.navbar .navbar-nav .nav-item .nav-link:hover{
+.navbar .navbar-nav .nav-item .nav-link:hover {
   color: #0872b9;
 }
 
 .sticky {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background: #b2bec3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #b2bec3;
   z-index: 99999;
 }
-body .sticky{
+body .sticky {
   padding: 0px 20px;
 }
 
+/*HEADER BANNER STARTED*/
 
-          /*HEADER BANNER STARTED*/
-
-
-.banner-header{
-  background: url('../images/banner.jpeg');
+.banner-header {
+  background: url("../images/banner.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
 }
-.overlay{
-  background: rgba(0,0,0,.8);
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
 }
-.banner-content{
+.banner-content {
   text-align: right;
   padding: 87px 40px;
 }
-.banner-content h3{
-  font-family: 'Oswald', sans-serif;
+.banner-content h3 {
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   color: #fff;
 }
-.banner-content h1{
-  font-family: 'Oswald', sans-serif;
+.banner-content h1 {
+  font-family: "Oswald", sans-serif;
   font-size: 40px;
   color: #fff;
   font-weight: bold;
   padding: 15px 0px;
 }
-.banner-content p{
-  font-family: 'Open Sans', sans-serif;
+.banner-content p {
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   color: #fff;
   line-height: 30px;
   padding-bottom: 30px;
 }
-.banner-content a{
-  font-family: 'Oswald', sans-serif;
+.banner-content a {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 14px;
   color: #fff;
@@ -138,64 +145,61 @@ body .sticky{
   padding: 10px 20px;
   border: 1px solid #fff;
   margin-left: 20px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.banner-content a:hover{
+.banner-content a:hover {
   background: #0872b9;
   border: 1px solid transparent;
 }
 
+/*ABOUT SECTION STARTED*/
 
-      /*ABOUT SECTION STARTED*/
-
-.about{
+.about {
   padding: 58px 40px 20px 40px;
 }
-.about h2{
-  font-family: 'Oswald', sans-serif;
+.about h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 24px;
   text-transform: uppercase;
 }
-.about .line{
+.about .line {
   margin-top: -20px;
   margin-left: -33px;
 }
-.about .col-md-8{
+.about .col-md-8 {
   padding: 80px 0px 40px;
 }
-.about .first-p{
+.about .first-p {
   padding-bottom: 20px;
 }
-.about p{
-  font-family: 'Open Sans', sans-serif;
+.about p {
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   color: #555555;
   line-height: 30px;
 }
 
+/*SERVICE SECTION STARTED*/
 
-      /*SERVICE SECTION STARTED*/
-
-
-.service .row{
+.service .row {
   padding: 30px 40px 55px;
   margin: 0px;
 }
-.service h2{
-  font-family: 'Oswald', sans-serif;
+.service h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 24px;
   text-transform: uppercase;
 }
-.service .line{
+.service .line {
   margin-top: -20px;
   margin-left: -70px;
 }
-.service-heading{
+.service-heading {
   margin-bottom: 30px;
 }
-.service .service-icon{
+.service .service-icon {
   height: 86px;
   width: 86px;
   background: #f1f1f1;
@@ -207,7 +211,7 @@ body .sticky{
   left: 50%;
   transform: translate(-50%);
 }
-.service .service-icon-2{
+.service .service-icon-2 {
   height: 70px;
   width: 70px;
   background: #f1f1f1;
@@ -222,60 +226,60 @@ body .sticky{
   justify-content: center;
   align-items: center;
 }
-.service .service-item{
-  transition: all .3s ease;
+.service .service-item {
+  transition: all 0.3s ease;
 }
-.service .service-item:hover{
-  box-shadow: 0px 0px 10px rgba(0,0,0,.6);
+.service .service-item:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 }
-.service .service-item:hover .service-icon,.service .service-item:hover .service-icon-2{
+.service .service-item:hover .service-icon,
+.service .service-item:hover .service-icon-2 {
   background: #5bc5f4;
 }
-.service .service-content{
+.service .service-content {
   background: #f1f1f1;
   padding: 50px 22px 20px;
 }
-.service .service-content h3{
+.service .service-content h3 {
   padding: 50px 0px 5px;
   color: #353535;
 }
-.service .service-content p{
-  font-family: 'Open Sans', sans-serif;
+.service .service-content p {
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 30px;
   color: #555555;
 }
 
-
 /*PORTFOLIO SECTION STARTED*/
 
-.portfolio .row{
+.portfolio .row {
   padding: 30px 40px 35px;
   margin: 0px;
 }
-.portfolio h2{
-  font-family: 'Oswald', sans-serif;
+.portfolio h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 24px;
   text-transform: uppercase;
 }
-.portfolio .line{
+.portfolio .line {
   margin-top: -20px;
   margin-left: -86px;
 }
-.portfolio .row .box{
+.portfolio .row .box {
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
 }
-.portfolio .row .box .portfolio-img{
+.portfolio .row .box .portfolio-img {
   width: 350px;
 }
-.portfolio .row .box .icon{
+.portfolio .row .box .icon {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   height: 40px;
   width: 40px;
   background: #5bc5f4;
@@ -285,67 +289,67 @@ body .sticky{
   align-items: center;
   opacity: 0;
 }
-.portfolio .row .box::before{
+.portfolio .row .box::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,.6);
+  background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
   transform: scaleY(0);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.portfolio .row .box:hover::before{
+.portfolio .row .box:hover::before {
   transform: scale(1);
 }
-.portfolio .row .box:hover .icon{
+.portfolio .row .box:hover .icon {
   opacity: 1;
 }
 /*TEAM SECTION STARTED*/
-.team{
+.team {
   padding: 28px 40px 20px;
 }
-.team h2{
-  font-family: 'Oswald', sans-serif;
+.team h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 24px;
   text-transform: uppercase;
 }
-.team .line{
+.team .line {
   margin-top: -20px;
   margin-left: -33px;
 }
-.team .row{
+.team .row {
   padding: 26px 40px 0px;
 }
-.team .row .col-lg-3 img{
+.team .row .col-lg-3 img {
   padding-top: 30px;
 }
-.team .row .col-lg-3 .box{
+.team .row .col-lg-3 .box {
   position: relative;
   background: #f1f1f1;
   overflow: hidden;
   margin-bottom: 10px;
 }
-.team .row .col-lg-3 .box .icon{
+.team .row .col-lg-3 .box .icon {
   position: absolute;
   top: 0;
   left: 70%;
   height: 100%;
   width: 30%;
-  background: rgba(0,0,0,.6);
+  background: rgba(0, 0, 0, 0.6);
   display: inline-grid;
   justify-content: center;
   align-items: center;
   transform: translateX(102%);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   padding: 33px 0px;
 }
-.team .row .col-lg-3 .box:hover .icon{
+.team .row .col-lg-3 .box:hover .icon {
   transform: translateX(0%);
 }
-.team .row .col-lg-3 .box .icon a{
+.team .row .col-lg-3 .box .icon a {
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -354,46 +358,46 @@ body .sticky{
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.team .row .col-lg-3 .box .icon a i{
+.team .row .col-lg-3 .box .icon a i {
   color: #fff;
 }
-.team .row .col-lg-3 .box .icon a:hover{
+.team .row .col-lg-3 .box .icon a:hover {
   background: #5bc5f4;
   border: 1px solid transparent;
 }
-.team .row .col-lg-3 .box:hover + span{
+.team .row .col-lg-3 .box:hover + span {
   color: #5bc5f4;
 }
-.team .col-lg-3 span{
-  font-family: 'Oswald', sans-serif;
+.team .col-lg-3 span {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 16px;
   text-transform: uppercase;
 }
-.team .col-lg-3 small{
-  font-family: 'Oswald', sans-serif;
+.team .col-lg-3 small {
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
   text-transform: capitalize;
 }
 
 /*TESTIMONIAL SECTION STARTED*/
 
-.testi{
+.testi {
   padding: 0px 40px;
 }
-.testi h2{
-  font-family: 'Oswald', sans-serif;
+.testi h2 {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 24px;
   text-transform: uppercase;
 }
-.testi .line{
+.testi .line {
   margin-top: -20px;
   margin-left: -61px;
 }
-.testi .col-md-6 .traingle p{
+.testi .col-md-6 .traingle p {
   position: relative;
   display: inline-block;
   padding: 15px;
@@ -404,14 +408,14 @@ body .sticky{
   margin-left: -10px;
   z-index: -11;
 }
-.testi .col-md-6 img{
+.testi .col-md-6 img {
   padding-bottom: 5px;
 }
-.testi .col-md-6 .testi-content{
+.testi .col-md-6 .testi-content {
   background: #f1f1f1;
 }
-.testi .col-md-6 .testi-content h3{
-  font-family: 'Oswald', sans-serif;
+.testi .col-md-6 .testi-content h3 {
+  font-family: "Oswald", sans-serif;
   font-weight: medium;
   font-size: 16px;
   padding-top: 16px;
@@ -420,49 +424,48 @@ body .sticky{
   text-transform: uppercase;
   color: #353535;
 }
-.testi .col-md-6 .testi-content h4{
-  font-family: 'Oswald', sans-serif;
+.testi .col-md-6 .testi-content h4 {
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   color: #555555;
   padding-top: 10px;
 }
-.testi .col-md-6 .testi-content p{
+.testi .col-md-6 .testi-content p {
   padding: 0px 40px;
   padding-bottom: 20px;
   line-height: 30px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 13px;
   color: #555555;
 }
 
-
 /*FOOTER SECTION STARTED*/
-.footer{
+.footer {
   background: #353535;
   margin-top: 60px;
   padding: 0 40px 30px;
 }
-.first-section img{
+.first-section img {
   padding: 18px 0 15px;
 }
-.first-section p{
+.first-section p {
   line-height: 30px;
   font-size: 13px;
   color: #f1f1f1;
 }
-.second-section .content{
+.second-section .content {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
-.second-section img{
+.second-section img {
   padding: 9px;
   background: #5bc5f4;
   border-radius: 50%;
   margin-right: 10px;
 }
-.second-section i{
+.second-section i {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -478,131 +481,126 @@ body .sticky{
   border-radius: 50%;
   margin-right: 10px;
 }
-.second-section h5{
-  font-family: 'Oswald', sans-serif;
+.second-section h5 {
+  font-family: "Oswald", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
   padding: 32px 0px 38px;
 }
-.second-section p{
+.second-section p {
   font-size: 13px;
   color: #f1f1f1;
 }
-.third-section{}
-.third-section h5{
-  font-family: 'Oswald', sans-serif;
+.third-section {
+}
+.third-section h5 {
+  font-family: "Oswald", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
   padding: 32px 0px 28px;
 }
-.third-section a{
+.third-section a {
   display: block;
   font-size: 13px;
   color: #fff;
   padding-bottom: 17px;
 }
-.third-section a:last-child{
+.third-section a:last-child {
   padding-bottom: 0;
 }
-.third-section a:hover{
+.third-section a:hover {
   color: #5bc5f4;
 }
-.fourth-section h5{
-  font-family: 'Oswald', sans-serif;
+.fourth-section h5 {
+  font-family: "Oswald", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
   padding: 32px 0px 28px;
 }
-.fourth-section img{
+.fourth-section img {
   margin-bottom: 8px;
   margin-right: 5px;
 }
 
-
-.f-last{
+.f-last {
   background: #555555;
   text-align: center;
 }
-.f-last p{
+.f-last p {
   font-size: 13px;
   color: #f1f1f1;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 600;
   padding: 15px 0;
 }
-.f-last span{
+.f-last span {
   font-size: 13px;
   text-transform: uppercase;
   color: #5bc5f4;
 }
 
-
-
-
-
-@media(max-width: 992px){
-  .about .col-md-4{
+@media (max-width: 992px) {
+  .about .col-md-4 {
     padding-top: 20px;
   }
-  .about .col-md-8{
-  padding: 5px 0px 40px;
+  .about .col-md-8 {
+    padding: 5px 0px 40px;
+  }
+  .footer .links {
+    padding-left: 50px;
+  }
 }
-.footer .links{
-  padding-left: 50px;
-}
-}
-@media(max-width: 768px){
-  .nav-top h6{
+@media (max-width: 768px) {
+  .nav-top h6 {
     display: none;
   }
-  .about .col-md-4{
+  .about .col-md-4 {
     padding-top: 60px;
   }
-  .team img{
+  .team img {
     padding-top: 20px;
   }
-  .portfolio .row .box .portfolio-img{
-  height: 200px;
-  width: 150px;
-}
-  .footer .links{
-  padding: 20px 0px;
-  display: flex;
-} .footer .links h5{
-  padding-right: 20px;
-  padding-left: 20px;
+  .portfolio .row .box .portfolio-img {
+    height: 200px;
+    width: 150px;
+  }
+  .footer .links {
+    padding: 20px 0px;
+    display: flex;
+  }
+  .footer .links h5 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .footer .flickr-photos {
+    display: flex;
+  }
+  .navbar-toggler-icon {
+    padding-top: 7px;
+  }
 }
 
-.footer .flickr-photos{
-  display: flex;
-}
-.navbar-toggler-icon{
-  padding-top: 7px;
-}
-}
-
-
-
-@media(max-width: 576px){
-  .portfolio .row .col-md-3{
+@media (max-width: 576px) {
+  .portfolio .row .col-md-3 {
     text-align: center;
   }
-  .portfolio .row .box{
+  .portfolio .row .box {
     margin-right: 20px;
   }
-  .service-item{
+  .service-item {
     margin-bottom: 80px;
   }
-  .team .box{
+  .team .box {
     margin: 15px 0px;
   }
-  .testi .testi-content{
+  .testi .testi-content {
     margin-bottom: 30px;
   }
-  .portfolio .box .portfolio-img{
+  .portfolio .box .portfolio-img {
     width: 200px !important;
   }
 }
