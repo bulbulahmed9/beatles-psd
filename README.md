@@ -8,6 +8,9 @@ This project is a **PSD to HTML conversion** that I completed as a beginner lear
 - Cross-browser compatible (basic)
 - Static webpage based on the original PSD design
 
+## Live Demo
+You can view the live site here: [View Live](https://bulbulahmed9.github.io/beatles-psd/)
+
 ## Folder Structure
 ```
 /dist/images     → image assets used in the design
